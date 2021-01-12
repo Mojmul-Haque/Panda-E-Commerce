@@ -1,0 +1,7 @@
+.carousel-indicators li {
+    background-color: #a21818;
+}
+
+html {
+    scroll-behavior: smooth;
+}

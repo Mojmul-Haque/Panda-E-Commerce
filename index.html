@@ -8,15 +8,218 @@
     <!-- bootstarap file here -->
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <!-- navigation part start -->
+
+    <header class="sticky-top">
+        <div class="container mb-5">
+            <nav class="navbar navbar-expand-md navbar-light bg-light text-center text-lg-left ">
+                <a class="navbar-brand" href="#banner_part"><img class="img-fluid" src="images/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#banner_part">Home</a>
+                        <a class="nav-link" href="#shoes_categories">Shoes</a>
+                        <a class="nav-link" href="#bag_catagoris">Backpack</a>
+                        <a class="nav-link" href="#footer_part">Subscribe</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- navigation part end -->
+    <!-- hero banner part start  -->
+    <section id="banner_part">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner container px-5 py-3 rounded-3" style="background-color: #FCEAE8;">
+                <div class="carousel-item active">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 order-2 order-lg-1">
+                            <h3 class="fs-1">Mega LCD TV For Sports </h3>
+                            <p class="pe-5">This is the best x-box in the world for people who just want to waste time in front of fake sports. </p>
+                            <h4 class="fs-1 text-danger pb-1">$450</h4>
+                            <a class="btn btn-danger px-4 py-2" href="#">Add to cart</a>
+                        </div>
+                        <div class="col-lg-5 order-1 order-lg-2">
+                            <img class="img-fluid w-100" src="images/banner-images/tv.png" alt="tv">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 order-2 order-lg-1">
+                            <h3 class="fs-1">Cool Dude Headphone </h3>
+                            <p class="pe-5">This is the best x-box in the world for people who just want to waste time in front of fake sports. </p>
+                            <h4 class="fs-1 text-danger pb-1">$450</h4>
+                            <a class="btn btn-danger px-4 py-2" href="#">Add to cart</a>
+                        </div>
+                        <div class="col-lg-5 order-1 order-lg-2">
+                            <img class="img-fluid w-100" src="images/banner-images/headphone.png" alt="xbox">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 order-2 order-lg-1">
+                            <h3 class="fs-1">X-Box for your living room </h3>
+                            <p class="pe-5">This is the best x-box in the world for people who just want to waste time in front of fake sports. </p>
+                            <h4 class="fs-1 text-danger pb-1">$450</h4>
+                            <a class="btn btn-danger px-4 py-2" href="#">Add to cart</a>
+                        </div>
+                        <div class="col-lg-5 order-1 order-lg-2">
+                            <img class="img-fluid w-100" src="images/banner-images/xbox.png" alt="xbox">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </section>
+    <main>
+        <section id="sub_categories">
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="main_catagories d-flex justify-content-around align-items-center rounded-3 bg-warning py-3 mt-2">
+                            <h2 class="fs-1 text-white">Watch</h2>
+                            <img src="images/categories/watch.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="main_catagories d-flex justify-content-around align-items-center rounded-3 bg-success py-3 mt-2">
+                            <h2 class="fs-1 text-white">Shoe</h2>
+                            <img src="images/categories/shoes.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="main_catagories d-flex justify-content-around align-items-center rounded-3 bg-primary py-3 mt-2">
+                            <h2 class="fs-1 text-white">Bag</h2>
+                            <img src="images/categories/bag.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- shoes section start  -->
+        <section id="shoes_categories">
+            <div class="container">
+                <h2 class="fs-1 text-black-50">Shoes</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="card border-0 shadow px-2 rounded-3">
+                            <img src="images/shoes/shoe-1.png" class="card-img-top" alt="shoes1">
+                            <div class="card-body">
+                                <h5 class="card-title fs-4">Supply 350 </h5>
+                                <p class="card-text pe-4">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+                                <h5 class="fs-4">$120</h5>
+                                <a href="#" class="btn btn-danger mt-2">Add to cart >></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="card border-0 shadow px-2 rounded-3 my-5 my-md-0">
+                            <img src="images/shoes/shoe-2.png" class="card-img-top" alt="shoes1">
+                            <div class="card-body">
+                                <h5 class="card-title fs-4">Nike 360</h5>
+                                <p class="card-text pe-4">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+                                <h5 class="fs-4">$250</h5>
+                                <a href="#" class="btn btn-danger mt-2">Add to cart >></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="card border-0 shadow px-2 rounded-3">
+                            <img src="images/shoes/shoe-3.png" class="card-img-top" alt="shoes1">
+                            <div class="card-body">
+                                <h5 class="card-title fs-4">Red Airmax</h5>
+                                <p class="card-text pe-4">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+                                <h5 class="fs-4">$180</h5>
+                                <a href="#" class="btn btn-danger mt-2">Add to cart >></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- bag part here -->
+
+        <section id="bag_catagoris">
+            <div class="container my-5 py-5">
+                <h3 class="card-title fs-1 text-black-50">Bag </h3>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="card border-0 shadow px-2 rounded-3">
+                            <img src="images/bags/bag-1.png" class="card-img-top" alt="bag1">
+                            <div class="card-body">
+                                <h5 class="card-title fs-4">Red Laltu Bag </h5>
+                                <h5 class="fs-4">$180</h5>
+                                <p class="card-text pe-4">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                                <a href="#" class="btn btn-danger mt-5">Add to cart >></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="card border-0 shadow px-2 rounded-3 my-5 my-md-0">
+                            <img src="images/bags/bag-2.png" class="card-img-top" alt="bag1">
+                            <div class="card-body">
+                                <h5 class="card-title fs-4">Blue Niltu Bag </h5>
+                                <h5 class="fs-4">$180</h5>
+                                <p class="card-text pe-4">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                                <a href="#" class="btn btn-danger mt-5">Add to cart >></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="card border-0 shadow px-2 rounded-3">
+                            <img src="images/bags/bag-3.png" class="card-img-top" alt="bag1">
+                            <div class="card-body">
+                                <h5 class="card-title fs-4">Black Kaltu Bag </h5>
+                                <h5 class="fs-4">$180</h5>
+                                <p class="card-text pe-4">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                                <a href="#" class="btn btn-danger mt-5">Add to cart >></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
-
-
-
-
+            </div>
+        </section>
+    </main>
+    <footer id="footer_part" class="d-flex justify-content-center py-5 align-items-center" style="background: #fceae8">
+        <div class="footer_contact">
+            <h2 class="card-title fs-4">LET'S STAY IN TOUCH </h2>
+            <p>Get updates on sales, specials and more </p>
+            <form>
+                <input type="text" class="w-100">
+                <button type="submit" class="btn btn-danger d-block mt-2 px-4">Submit</button>
+            </form>
+        </div>
+    </footer>
 
     <!-- bootstarp js file -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
